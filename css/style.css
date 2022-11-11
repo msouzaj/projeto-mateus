@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: #201b2c;
+    scroll-behavior: smooth;
+    height: 100vh;  
+}
+.container {
+    background-color: #201b2c;
+}
+.text-center {
+    background-color: #201b2c;
+}
+
+.foto-perfil{
+    border-radius: 300px;
+    width: 100%;
+    max-width: 250px;
+}
+.name{
+    font-weight: 3px;
+    color:rgb(228, 228, 228);
+    text-transform: uppercase;
+    text-shadow: 10% black ;
+}
+.nome-cabecalho{
+    color:rgb(228, 228, 228);
+    font-size: 25px;
+    font-weight: 5px;
+}
+
+.lead{
+    color:white !important;
+}
+.icone-git{
+    width: 100%;
+    max-width: 35px;
+}
+.icone-insta{
+    width: 100%;
+    max-width: 35px;
+}
+.instagram{
+    text-decoration: none;
+}
+.git{
+    text-decoration: none;
+}
+.sobre{
+    color: azure;
+    padding: 15px;
+}
+.paragrafo{
+    color: azure;
+    font-size: 15px;
+    word-break: break-word;
+    font-weight: 50;
+
+}
+.geral-baixo{
+    padding-top: 95px;
+}
+.navegacao {
+    color: rgb(228, 228, 228);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(54, 40, 75);
+    z-index: 100;
+}
+.navegacao-lista{
+    padding: 0;
+}
+.navegacao-lista-item{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.nav-link{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: rgb(0, 1, 61);
+    transition: .2s;
+    border-bottom: 2px solid rgb(0, 1, 61);
+}
+
+
+
+.circle {
+    width: 100%;
+    max-width: 200px;
+    margin: 6px 6px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+}
+  
+.circle canvas {
+    vertical-align: top;
+    width: 100% !important;
+    max-width: 200px;
+}
+  
+.circle strong {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: black;
+}
+  
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+  }
+  
+.circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 12px;
+}
+.container{
+    padding: 200px;
+    word-break: normal;
+}
+.cursos{
+    color: azure;
+    padding: 50px;
+}
+.cursos-item{
+    color: rgb(68, 27, 182);
+    padding: 20px;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+    .container {
+       width:fit-content;
+    }
+    .navegacao, .cabecalho
+    {
+        width: 70%;
+        height: min-content;
+        display: none;
+    }
+
+}
+@media only screen and (max-width : 1920px) {
+
+    .container {
+       width:fit-content;
+    }
+    .paragrafo{
+        font-size: 27px;
+    }
+    .name{
+        font-size: 55px;
+    }
+    .foto-perfil{
+        width: 100%;
+        max-width: 380px;
+    }
+    .lead{
+        font-size: 30px;
+    }
+    .icone-git{
+        width: 100%;
+    max-width: 50px;
+    }
+    .icone-insta{
+        width: 100%;
+    max-width: 50px;
+    }
+
+
+}
+      
